@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct FetchApp: App {
+struct FetcherciseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MealsListView(
+                viewModel: MealsListView.ViewModel(client: .live)
+            )
         }
     }
 }

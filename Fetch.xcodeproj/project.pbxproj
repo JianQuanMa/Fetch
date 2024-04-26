@@ -14,6 +14,8 @@
 		4E38AF792BDAA745007CC84C /* FetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38AF782BDAA745007CC84C /* FetchTests.swift */; };
 		4E38AF832BDAA745007CC84C /* FetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38AF822BDAA745007CC84C /* FetchUITests.swift */; };
 		4E38AF852BDAA745007CC84C /* FetchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38AF842BDAA745007CC84C /* FetchUITestsLaunchTests.swift */; };
+		4E38AF922BDAD103007CC84C /* MealAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E38AF912BDAD103007CC84C /* MealAPI.swift */; };
+		4E38AF942BDC2DC9007CC84C /* MealRootSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E38AF932BDC2DC9007CC84C /* MealRootSample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4E38AF7E2BDAA745007CC84C /* FetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E38AF822BDAA745007CC84C /* FetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUITests.swift; sourceTree = "<group>"; };
 		4E38AF842BDAA745007CC84C /* FetchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E38AF912BDAD103007CC84C /* MealAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealAPI.swift; sourceTree = "<group>"; };
+		4E38AF932BDC2DC9007CC84C /* MealRootSample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MealRootSample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				4E38AF692BDAA744007CC84C /* ContentView.swift */,
 				4E38AF6B2BDAA745007CC84C /* Assets.xcassets */,
 				4E38AF6D2BDAA745007CC84C /* Preview Content */,
+				4E38AF912BDAD103007CC84C /* MealAPI.swift */,
+				4E38AF932BDC2DC9007CC84C /* MealRootSample.json */,
 			);
 			path = Fetch;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E38AF942BDC2DC9007CC84C /* MealRootSample.json in Resources */,
 				4E38AF6F2BDAA745007CC84C /* Preview Assets.xcassets in Resources */,
 				4E38AF6C2BDAA745007CC84C /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E38AF6A2BDAA744007CC84C /* ContentView.swift in Sources */,
+				4E38AF922BDAD103007CC84C /* MealAPI.swift in Sources */,
 				4E38AF682BDAA744007CC84C /* FetchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
