@@ -222,5 +222,6 @@ struct MealsListView: View {
     MealsListView(
         viewModel: MealsListView.ViewModel(client: .live)
 //        viewModel: MealsListView.ViewModel(client: .mock)
+        // so that we can switch between live and mock
     )
 }
